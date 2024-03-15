@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+html {
+	background-color: lightskyblue;
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	color: dimgrey;
+	font-size: 10px;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+
+header {
+	font-size: 2.2rem;
+}
+
+header h1,
+header h2 {
+	text-shadow: 2px 2px 0 black;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header h2 {
+	text-transform: uppercase;
+}
+
+main {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	text-align: justify;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+
+main section {
+	width: 60%;
+}
+
+main section time {
+	font-style: italic;
+}
+
+main aside {
+	width: 40%;
+}
+
+.new-feature {
+	padding-left: 25px;
+	background-image: url("../images/new.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#emailAddress {
+	font-weight: bold;
+}
+
+[rel="external"] {
+	padding-right: 20px;
+	background-image: url("../images/extlink.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+/* Thank you to 'pnx' at https://openclipart.org/detail/202731/external-link-icon for the very cool external link icon */
+
+main a {
+	text-decoration: none;
+	color: lightskyblue;
+	font-weight: bold;
+}
+
+main a:hover {
+	text-decoration: underline;
+	color: orange;
+}
+
+blockquote::first-letter {
+	font-size: 2em;
+}
+
+footer {
+	font-size: 1.6rem;
+}
+
+footer p {
+	text-align: right;
+}
+
+section > p {
+	text-indent: 2em;
+}
+
+h1, h2, footer {
+	color: white;
+}
